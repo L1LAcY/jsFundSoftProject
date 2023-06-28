@@ -20,15 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
       let deleteButton = document.createElement('button');
       deleteButton.textContent = 'Delete';
       deleteButton.className = 'deleteButton';
-      let doneButton = document.createElement('button');
-      doneButton.textContent = 'Done';
-      doneButton.className = 'doneButton';
-
-      doneButton.addEventListener('click', function(index) {
-        let targetLi = index.target.parentNode;
-        targetLi.style.backgroundColor = doneColor;
-        renderTasks();
-      });
 
       deleteButton.addEventListener('click', function() {
         tasks.splice(index, 1);
@@ -47,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
       li.appendChild(editButton);
       li.appendChild(deleteButton);
-      li.appendChild(doneButton);
       taskList.appendChild(li);
     });
   }
