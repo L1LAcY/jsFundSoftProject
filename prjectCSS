@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.deleteButton {
+  margin-left: 10px;
+  background-color: rgb(250, 79, 79);
+}
+.editButton {
+  background-color: yellow;
+  margin-left: 20px;
+  color: black;
+}
+.addTaskButtonClass{
+  margin-top: 5px;
+}
+.clearBtnClass{
+  margin-top: 5px;
+}
+.usefullButtons {
+  display: flex;
+  align-items: center;
+  margin-right: 7.5px;
+}
+.thisLi {
+  display: flex;
+  align-items: center;
+}
