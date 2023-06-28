@@ -1,0 +1,19 @@
+
+<!DOCTYPE html lang = 'en'>
+<html>
+<head>
+  <title class="toDoText">To-Do List</title>
+  <link rel="stylesheet" type="text/css" href="prjct.css">
+</head>
+<body>
+  <h1>To-Do List</h1>
+  <input id="taskInput" type="text" placeholder="Enter a task">
+  <div class="usefullButtons">
+    <button id="addTaskButton" class="addTaskButtonClass">Add Task</button>
+    <button id="clearBtn" class="clearBtnClass">Clear all</button>
+  </div>
+    <ul id="taskList"></ul>
+
+  <script src="prjct.js"></script>
+</body>
+</html>
