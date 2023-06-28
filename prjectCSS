@@ -48,7 +48,4 @@ li {
   align-items: center;
   margin-right: 7.5px;
 }
-.thisLi {
-  display: flex;
-  align-items: center;
-}
+
